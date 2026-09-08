@@ -1,0 +1,87 @@
+.p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: smaller;
+    font-weight: 100;
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    border-style: dotted;
+}
+.p2{
+    font-family: jokerman;
+    font-size: bigger;
+    font-weight: 200;
+    color: blue;
+    text-transform: lowercase;
+    text-decoration: double;
+    text-align: inherit;
+    border-style: solid;
+}
+.p3{
+    font-family: lucida calligraphy;
+    font-size: medium;
+    font-weight: 300;
+    color: magenta;
+    text-transform: none;
+    text-decoration: none;
+    text-align: center;
+    border-style: double;
+}
+.p4{
+    font-family: curlz mt;
+    font-size: medium;
+    font-weight: 400;
+    color: crimson;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-align: center;
+    border-style: groove;
+}
+#logo{
+    height: 50px;
+    width: 200px;
+}
+h1{
+    color: blueviolet;
+}
+button{
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border-style: double;
+    border-color: black;
+    
+}
+button:hover{
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+.b2{
+    margin: 10px;
+    
+}
+iframe{
+    border-radius: 20px;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 10px;
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+#tutorials{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 30px;
+}
